@@ -12,7 +12,7 @@ class SnakeGame:
             # Prevent moving past the board's end
             print("Move exceeds board end. Try again.")
             # Optionally, do nothing or prompt player to roll again/skip turn
-            return
+         
         else:
             self.player_pos = new_position
             # Continue with snake/ladder logic if present
